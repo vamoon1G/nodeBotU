@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чат</title>
+<link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+
+<div id="chat" class="chat-container"></div>
+<form id="sendMessageForm">
+    <input type="text" onclick ="var self = this; setTimeout(function(){self.value=''}, 1)" id="messageText" placeholder="Введите сообщение..." required>
+    <button type="submit">Отправить</button>
+</form>
+
+    
+<script src="chat.js"></script>
+  
+
+
+</body>
+</html>
